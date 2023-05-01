@@ -18,6 +18,7 @@ public  class BookLibServiceImpl implements BookLibService {
 
     @Override
     public List<Book> display() {
+        System.out.println("i am in service");
         return bookDao.display();
     }
 
